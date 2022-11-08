@@ -8,6 +8,6 @@ int main(){
             return val + *i;
           }
   };
-  register_callback(cb);
+  register_callback(std::move(cb));
   return 0;
 }
