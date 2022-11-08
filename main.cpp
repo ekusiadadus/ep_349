@@ -8,5 +8,6 @@ int main(){
             return val + *i;
           }
   };
+  register_callback(cb);
   return 0;
 }
